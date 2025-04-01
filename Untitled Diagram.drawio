@@ -71,8 +71,26 @@
         <mxCell id="3qJD3kImKflB5u9U5FBh-3" value="&lt;span style=&quot;color: rgb(167, 9, 245); white-space: pre; font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 10pt; text-align: start; background-color: transparent;&quot;&gt;xycoords_1.xlsx&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(167, 9, 245); white-space: pre; font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 10pt; text-align: start; background-color: transparent;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: rgb(167, 9, 245); font-size: 10pt;&quot;&gt;xycoords_2.xlsx&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre; font-family: Menlo, Monaco, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 10pt; text-align: start; background-color: transparent;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 10pt;&quot;&gt;&lt;font&gt;&lt;span style=&quot;background-color: transparent; font-size: 10pt; color: rgb(167, 9, 245);&quot;&gt;xycoords_3.xlsx&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="290.5" y="580" width="196" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="3qJD3kImKflB5u9U5FBh-6" value="convert all .xlsx files into arrays" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="329" y="690" width="120" height="60" as="geometry" />
+        <mxCell id="3qJD3kImKflB5u9U5FBh-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3qJD3kImKflB5u9U5FBh-6" target="3qJD3kImKflB5u9U5FBh-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3qJD3kImKflB5u9U5FBh-6" value="convert all .xlsx files into arrays\&lt;div&gt;(columns = x, y, time)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="298" y="690" width="181" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3qJD3kImKflB5u9U5FBh-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3qJD3kImKflB5u9U5FBh-7" target="3qJD3kImKflB5u9U5FBh-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3qJD3kImKflB5u9U5FBh-7" value="find first value in x column for each file" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="328.5" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3qJD3kImKflB5u9U5FBh-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3qJD3kImKflB5u9U5FBh-9" target="3qJD3kImKflB5u9U5FBh-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3qJD3kImKflB5u9U5FBh-9" value="find next row where that x value appears" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="312.75" y="870" width="151.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3qJD3kImKflB5u9U5FBh-11" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="328.5" y="960" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
