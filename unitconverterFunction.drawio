@@ -29,14 +29,31 @@
         <mxCell id="2AnpzwybsT9PCwgBeEu_-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2AnpzwybsT9PCwgBeEu_-9" target="2AnpzwybsT9PCwgBeEu_-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="2AnpzwybsT9PCwgBeEu_-16" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2AnpzwybsT9PCwgBeEu_-15">
+          <mxGeometry y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="2AnpzwybsT9PCwgBeEu_-9" value="Is the conversion type inputted, within the array of acceptable conversion types" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="492.5" y="210" width="125" height="110" as="geometry" />
         </mxCell>
         <mxCell id="2AnpzwybsT9PCwgBeEu_-11" value="throw error message&amp;nbsp;&lt;div&gt;&#39;Invalid conversion type&#39;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="235" width="120" height="60" as="geometry" />
+          <mxGeometry x="330" y="235" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2AnpzwybsT9PCwgBeEu_-14" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2AnpzwybsT9PCwgBeEu_-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2AnpzwybsT9PCwgBeEu_-14" target="2AnpzwybsT9PCwgBeEu_-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2AnpzwybsT9PCwgBeEu_-14" value="perform corresponding conversion calculation" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="495" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2AnpzwybsT9PCwgBeEu_-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2AnpzwybsT9PCwgBeEu_-17" target="2AnpzwybsT9PCwgBeEu_-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2AnpzwybsT9PCwgBeEu_-17" value="Set the output of the function to a string showing the full conversion with units" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2AnpzwybsT9PCwgBeEu_-19" value="END" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="512.5" y="520" width="85" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
