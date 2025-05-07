@@ -4,8 +4,14 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="NWDPOcR8qUlX_GnqZ6YF-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NWDPOcR8qUlX_GnqZ6YF-1" target="NWDPOcR8qUlX_GnqZ6YF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NWDPOcR8qUlX_GnqZ6YF-1" value="START" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="130" width="110" height="40" as="geometry" />
+          <mxGeometry x="520" y="130" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NWDPOcR8qUlX_GnqZ6YF-2" value="user inputs what type of conversion they wish to perform" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="180" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
