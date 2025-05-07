@@ -1,9 +1,43 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="26.2.8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.1">
   <diagram name="Page-1" id="OvBkDrT3zQPmuKv5dW8j">
-    <mxGraphModel>
+    <mxGraphModel dx="1665" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2AnpzwybsT9PCwgBeEu_-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2AnpzwybsT9PCwgBeEu_-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="555" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2AnpzwybsT9PCwgBeEu_-1" value="-number to be converted&lt;div&gt;-conversion type&lt;/div&gt;&lt;div&gt;-array of acceptable conversion types&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="437.5" y="110" width="235" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2AnpzwybsT9PCwgBeEu_-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2AnpzwybsT9PCwgBeEu_-3" target="2AnpzwybsT9PCwgBeEu_-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2AnpzwybsT9PCwgBeEu_-3" value="START" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="60" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2AnpzwybsT9PCwgBeEu_-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2AnpzwybsT9PCwgBeEu_-9" target="2AnpzwybsT9PCwgBeEu_-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2AnpzwybsT9PCwgBeEu_-13" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2AnpzwybsT9PCwgBeEu_-12">
+          <mxGeometry x="0.0303" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2AnpzwybsT9PCwgBeEu_-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2AnpzwybsT9PCwgBeEu_-9" target="2AnpzwybsT9PCwgBeEu_-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2AnpzwybsT9PCwgBeEu_-9" value="Is the conversion type inputted, within the array of acceptable conversion types" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="492.5" y="210" width="125" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="2AnpzwybsT9PCwgBeEu_-11" value="throw error message&amp;nbsp;&lt;div&gt;&#39;Invalid conversion type&#39;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="235" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2AnpzwybsT9PCwgBeEu_-14" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
