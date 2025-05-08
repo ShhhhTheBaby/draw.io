@@ -15,8 +15,8 @@
         <mxCell id="2AnpzwybsT9PCwgBeEu_-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2AnpzwybsT9PCwgBeEu_-3" target="2AnpzwybsT9PCwgBeEu_-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2AnpzwybsT9PCwgBeEu_-3" value="START" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="60" width="90" height="30" as="geometry" />
+        <mxCell id="2AnpzwybsT9PCwgBeEu_-3" value="unitConverterFunction" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="60" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2AnpzwybsT9PCwgBeEu_-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2AnpzwybsT9PCwgBeEu_-9" target="2AnpzwybsT9PCwgBeEu_-11">
           <mxGeometry relative="1" as="geometry" />
@@ -52,11 +52,11 @@
         <mxCell id="2AnpzwybsT9PCwgBeEu_-17" value="Set the output of the function to a string showing the full conversion with units" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="495" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2AnpzwybsT9PCwgBeEu_-19" value="END" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2AnpzwybsT9PCwgBeEu_-19" value="RETURN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="520" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2AnpzwybsT9PCwgBeEu_-21" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="510" y="20" width="60" height="30" as="geometry" />
+        <mxCell id="2AnpzwybsT9PCwgBeEu_-21" value="&lt;b&gt;Figure 2. Flowchart of unitConverterFunction()&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="487.5" y="20" width="135" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
